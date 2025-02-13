@@ -5,14 +5,16 @@
 
 ## 📜 Table of Contents
 
-- [🌟 Overview](#overview)
-- [⚡ Features](#features)
-- [📥 Installation](#installation)
-- [🛠️ Usage](#usage)
-- [⚙️ Configuration](#configuration)
-- [🤝 Contributing](#contributing)
-- [📜 License](#license)
-- [💡 Support](#support)
+- [🌟 Overview](#-overview)
+- [⚡ Features](#-features)
+- [📥 Installation](#-installation)
+- [🛠️ Usage](#️-usage)
+- [⚙️ Configuration](#-contributing)
+- [✍️ Author](#️-author)
+- [🤝 Contributing](#-contributing)
+- [🤝 Contributors](#-contributors)
+- [📜 License](#-license)
+- [💡 Support](#-support)
 
 ## 🌟 Overview
 
@@ -58,9 +60,19 @@ _For detailed usage and configuration options, please refer to our [GitHub Repos
 
 Customize **InfinityDot** settings via `File > Preferences > Settings` and search for `InfinityDot`.
 
+## ✍️ Author
+
+1. Afuh Flyine Tembeng [Email](mailto:flyinnsafuh@gmail.com)
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please see our [Contribution Guidelines](CONTRIBUTING.md) for more information on how to help improve **InfinityDot**. 💙
+
+## 👥 Contributors
+
+Give our contributors a heart ❤️:
+
+1. __Afuh Flyine_ [Github profile](https://github.com/AfuhFlynns)
 
 ## 📜 License
 
@@ -72,5 +84,4 @@ If you encounter issues or have suggestions, please open an issue on our [GitHub
 
 ---
 
-🎉 *Happy Coding!* 🚀
-
+🎉 **Happy Coding!** 🚀
