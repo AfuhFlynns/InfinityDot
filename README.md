@@ -1,7 +1,5 @@
 # InfinityDot 🚀✨
 
-![InfinityDot Banner](./path-to-your-uploaded-banner.png)
-
 [![Version](https://img.shields.io/vscode-marketplace/v/yourpublisher.extension-name)](https://marketplace.visualstudio.com/items?itemName=yourpublisher.extension-name)
 [![Downloads](https://img.shields.io/vscode-marketplace/d/yourpublisher.extension-name)](https://marketplace.visualstudio.com/items?itemName=yourpublisher.extension-name)
 
