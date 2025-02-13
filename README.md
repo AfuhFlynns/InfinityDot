@@ -18,6 +18,8 @@
 
 **InfinityDot** is a comprehensive Visual Studio Code extension that brings full language support for .NET development, including C#, VB.NET, F#, Blazor, and more. With features like executing code via `dotnet run`, integrated compilation and debugging, and intelligent intellisense, this extension is designed to boost productivity and streamline your development workflow. 🖥️💡
 
+This extension is purposefully made for students to ease their work and time it takes to move from, creating, debugging and compiling a project and running it
+
 ![InfinityDot Banner](https://via.placeholder.com/1200x400.png?text=InfinityDot+Banner)
 
 ## ⚡ Features
