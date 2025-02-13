@@ -1,3 +1,5 @@
+# Ignore nodemodules
+node_modules
 # Ignore all dotenv files
 .env
 
