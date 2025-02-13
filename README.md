@@ -49,7 +49,8 @@ This extension is purposefully made for students to ease their work and time it 
 Make sure you have the .NET compiler installed on your system. Download it from [dotnet.microsoft.com](https://dotnet.microsoft.com/en-us/download).
 **If you are using linux or mac or just want the terminal:**
 
-**1.** chocolatey on windows: 
+**1.** chocolatey on windows:
+
 > Open powershell as administrator
 > First install choco:
 
@@ -58,6 +59,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 
 > Install dotnet sdk:
+
 ```bash
 choco install dotnet-sdk -y
 ```
@@ -96,6 +98,7 @@ _Note: For other distributions or .NET versions, refer to the [official Microsof
 brew update
 brew install --cask dotnet-sdk
 ```
+
 _Note: For other distributions or .NET versions, refer to the [official Microsoft documentation for macos](https://docs.microsoft.com/dotnet/core/install/macos)_
 
 **For more info checkout dotnet docs: [.NET documentation](https://learn.microsoft.com/en-us/dotnet/)**
@@ -132,7 +135,7 @@ Contributions are welcome! Please see our [Contribution Guidelines](CONTRIBUTING
 
 Give our contributors a heart ❤️:
 
-1. __Afuh Flyine_ [Github profile](https://github.com/AfuhFlynns)
+1. _Afuh Flyine_ [Github profile](https://github.com/AfuhFlynns)
 
 ## 📜 License
 
@@ -144,8 +147,4 @@ If you encounter issues or have suggestions, please open an issue on our [GitHub
 
 ---
 
-<<<<<<< HEAD
-🎉 *Happy Coding!* 🚀
-=======
 🎉 **Happy Coding!** 🚀
->>>>>>> local
