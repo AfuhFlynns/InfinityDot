@@ -1,5 +1,10 @@
+# Ignore nodemodules
+node_modules
 # Ignore all dotenv files
 .env
 
 # Ignore all txt files
 .txt
+
+# Ignore editor files:
+.vscode
