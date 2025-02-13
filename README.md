@@ -58,7 +58,10 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install dotnet-sdk -y
 ```
 
+_Note: For other distributions or .NET versions, refer to the [official Microsoft documentation for windows](https://docs.microsoft.com/dotnet/core/install/windows)_
+
 **2.** Linux (Ubuntu/Debian-based):
+> Open the terminal with _ctrl + alt + t_
 
 ```bash
 # Download the Microsoft package repository configuration
@@ -78,16 +81,20 @@ sudo apt-get install -y apt-transport-https
 sudo apt-get update
 sudo apt-get install -y dotnet-sdk-6.0
 ```
-_Note: For other distributions or .NET versions, refer to the [official Microsoft documentation](https://docs.microsoft.com/dotnet/core/install/linux)_
+
+_Note: For other distributions or .NET versions, refer to the [official Microsoft documentation for linux](https://docs.microsoft.com/dotnet/core/install/linux)_
 
 **3.** macOS (using Homebrew):
-Update or install homebrew and install dotnet sdk:
+> Open the terminal with Command (⌘) + Space
+> Update or install homebrew and install dotnet sdk:
+
 ```bash
 brew update
 brew install --cask dotnet-sdk
 ```
+_Note: For other distributions or .NET versions, refer to the [official Microsoft documentation for macos](https://docs.microsoft.com/dotnet/core/install/macos)_
 
-**For more info checkout dotnet docs: [.NET documentation](https://learn.microsoft.com/en-us/dotnet/)
+**For more info checkout dotnet docs: [.NET documentation](https://learn.microsoft.com/en-us/dotnet/)**
 
 ## 🛠️ Usage
 
