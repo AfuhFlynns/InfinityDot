@@ -42,7 +42,52 @@
 5. Reload VS Code if prompted.
 
 **Prerequisites:**  
-Make sure you have the .NET compiler installed on your system. Download it from [dotnet.microsoft.com](https://dotnet.microsoft.com).
+Make sure you have the .NET compiler installed on your system. Download it from [dotnet.microsoft.com](https://dotnet.microsoft.com/en-us/download).
+**If you are using linux or mac or just want the terminal:**
+
+**1.** chocolatey on windows: 
+> Open powershell as administrator
+> First install choco:
+
+```bash
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+> Install dotnet sdk:
+```bash
+choco install dotnet-sdk -y
+```
+
+**2.** Linux (Ubuntu/Debian-based):
+
+```bash
+# Download the Microsoft package repository configuration
+wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+
+# Install the package repository configuration
+sudo dpkg -i packages-microsoft-prod.deb
+
+# Remove the downloaded file (optional)
+rm packages-microsoft-prod.deb
+
+# Install necessary HTTPS transport package
+sudo apt-get update
+sudo apt-get install -y apt-transport-https
+
+# Update package lists and install the .NET SDK (example uses .NET 6.0)
+sudo apt-get update
+sudo apt-get install -y dotnet-sdk-6.0
+```
+_Note: For other distributions or .NET versions, refer to the [official Microsoft documentation](https://docs.microsoft.com/dotnet/core/install/linux)_
+
+**3.** macOS (using Homebrew):
+Update or install homebrew and install dotnet sdk:
+```bash
+brew update
+brew install --cask dotnet-sdk
+```
+
+**For more info checkout dotnet docs: [.NET documentation](https://learn.microsoft.com/en-us/dotnet/)
 
 ## 🛠️ Usage
 
